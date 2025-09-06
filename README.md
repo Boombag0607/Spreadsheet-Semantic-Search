@@ -34,17 +34,32 @@ mkdir spreadsheet-search && cd spreadsheet-search
 # Copy all the provided files into this directory
 ```
 
-2. **Install dependencies**
+2. **Set up Virtual Environment**
+```bash
+python -m venv semantic-search-env
+```
+
+2. **Activate Virtual Environment**
+```bash
+source venv/bin/activate
+```
+
+3. **Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-3. **Run the web interface**
+4. **Set up**
+```bash
+python setup.py
+```
+
+5. **Run the web interface**
 ```bash
 python main.py
 ```
 
-4. **Open your browser**
+6. **Open your browser**
 ```
 http://localhost:8000
 ```
