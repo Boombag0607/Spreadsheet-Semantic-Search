@@ -1,7 +1,5 @@
 # 🔍 Spreadsheet Semantic Search Engine
 
-**Built for Superjoin Hiring Assignment**
-
 A powerful semantic search engine that understands spreadsheet content conceptually, allowing users to find information using natural language queries instead of cell references or keyword matching.
 
 ## 🌟 Features
